@@ -1,0 +1,95 @@
+Running on cpu
+Training Dataste ... 
+Number of samples : 180030
+Development Dataste ... 
+Number of samples : 30000
+
+
+model parameters ... 
+LSTM6(
+  (lstm): LSTM(64, 128, batch_first=True)
+  (hidden2output): Linear(in_features=256, out_features=64, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+
+
+model configuration ... 
+{'board_size': 8, 'path_save': 'save_models', 'epoch': 20, 'earlyStopping': 20, 'len_inpout_seq': 10, 'LSTM_conf': {'hidden_dim': 128}}
+
+
+model optimizer ... 
+SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.005
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)
+
+
+Number of parameters: 115776
+epoch : 1/20 - loss = 4.1588810320058585
+Accuracy Train:1.82%, Dev:1.89% ; Time:127 (last_train:78, last_pred:50)
+*************** The best score on DEV 1 :1.89%
+epoch : 2/20 - loss = 4.158880850228157
+Accuracy Train:1.83%, Dev:1.89% ; Time:233 (last_train:60, last_pred:46)
+*************** The best score on DEV 1 :1.89%
+epoch : 3/20 - loss = 4.158880676353834
+Accuracy Train:1.83%, Dev:1.89% ; Time:346 (last_train:64, last_pred:49)
+*************** The best score on DEV 1 :1.89%
+epoch : 4/20 - loss = 4.158880497210593
+Accuracy Train:1.84%, Dev:1.89% ; Time:448 (last_train:58, last_pred:44)
+*************** The best score on DEV 1 :1.89%
+epoch : 5/20 - loss = 4.158880347046404
+Accuracy Train:1.84%, Dev:1.88% ; Time:562 (last_train:62, last_pred:51)
+*************** The best score on DEV 1 :1.89%
+epoch : 6/20 - loss = 4.158880175806541
+Accuracy Train:1.85%, Dev:1.88% ; Time:666 (last_train:59, last_pred:45)
+*************** The best score on DEV 1 :1.89%
+epoch : 7/20 - loss = 4.158879991394381
+Accuracy Train:1.85%, Dev:1.88% ; Time:771 (last_train:57, last_pred:47)
+*************** The best score on DEV 1 :1.89%
+epoch : 8/20 - loss = 4.158879799078841
+Accuracy Train:1.85%, Dev:1.88% ; Time:894 (last_train:69, last_pred:54)
+*************** The best score on DEV 1 :1.89%
+epoch : 9/20 - loss = 4.158879643645735
+Accuracy Train:1.85%, Dev:1.88% ; Time:1025 (last_train:77, last_pred:55)
+*************** The best score on DEV 1 :1.89%
+epoch : 10/20 - loss = 4.158879464502492
+Accuracy Train:1.86%, Dev:1.89% ; Time:1165 (last_train:86, last_pred:53)
+*************** The best score on DEV 1 :1.89%
+epoch : 11/20 - loss = 4.158879261649116
+Accuracy Train:1.86%, Dev:1.89% ; Time:1289 (last_train:72, last_pred:52)
+*************** The best score on DEV 1 :1.89%
+epoch : 12/20 - loss = 4.158879119388306
+Accuracy Train:1.86%, Dev:1.88% ; Time:1413 (last_train:72, last_pred:52)
+*************** The best score on DEV 1 :1.89%
+epoch : 13/20 - loss = 4.158878969224118
+Accuracy Train:1.86%, Dev:1.89% ; Time:1534 (last_train:70, last_pred:51)
+*************** The best score on DEV 1 :1.89%
+epoch : 14/20 - loss = 4.158878787446417
+Accuracy Train:1.86%, Dev:1.89% ; Time:1658 (last_train:71, last_pred:53)
+*************** The best score on DEV 14 :1.893%
+epoch : 15/20 - loss = 4.158878603034257
+Accuracy Train:1.87%, Dev:1.91% ; Time:1801 (last_train:93, last_pred:50)
+*************** The best score on DEV 15 :1.907%
+epoch : 16/20 - loss = 4.1588784344288525
+Accuracy Train:1.87%, Dev:1.91% ; Time:1923 (last_train:71, last_pred:51)
+*************** The best score on DEV 15 :1.907%
+epoch : 17/20 - loss = 4.158878252651151
+Accuracy Train:1.87%, Dev:1.92% ; Time:2044 (last_train:70, last_pred:50)
+*************** The best score on DEV 17 :1.92%
+epoch : 18/20 - loss = 4.15887807350791
+Accuracy Train:1.88%, Dev:1.92% ; Time:2163 (last_train:69, last_pred:50)
+*************** The best score on DEV 17 :1.92%
+epoch : 19/20 - loss = 4.158877907536965
+Accuracy Train:1.88%, Dev:1.92% ; Time:2282 (last_train:69, last_pred:50)
+*************** The best score on DEV 19 :1.923%
+epoch : 20/20 - loss = 4.158877749469399
+Accuracy Train:1.89%, Dev:1.94% ; Time:2400 (last_train:70, last_pred:48)
+*************** The best score on DEV 20 :1.943%
+Recalculing the best DEV: WAcc : 1.9433333333333334%

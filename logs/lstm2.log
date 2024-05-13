@@ -1,0 +1,98 @@
+Running on cpu
+Training Dataste ... 
+Number of samples : 180030
+Development Dataste ... 
+Number of samples : 30000
+
+
+model parameters ... 
+LSTM2(
+  (lstm): LSTM(64, 128, batch_first=True)
+  (hidden2output): Linear(in_features=256, out_features=256, bias=True)
+  (hidden2output2): Linear(in_features=256, out_features=64, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+
+
+model configuration ... 
+{'board_size': 8, 'path_save': 'save_models', 'epoch': 20, 'earlyStopping': 20, 'len_inpout_seq': 10, 'LSTM_conf': {'hidden_dim': 128}}
+
+
+model optimizer ... 
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    lr: 0.005
+    maximize: False
+    weight_decay: 0
+)
+
+
+Number of parameters: 181568
+epoch : 1/20 - loss = 4.152360376073511
+Accuracy Train:2.84%, Dev:2.73% ; Time:141 (last_train:85, last_pred:56)
+*************** The best score on DEV 1 :2.73%
+epoch : 2/20 - loss = 4.152846415398529
+Accuracy Train:4.31%, Dev:4.18% ; Time:271 (last_train:76, last_pred:55)
+*************** The best score on DEV 2 :4.177%
+epoch : 3/20 - loss = 4.153562745995284
+Accuracy Train:3.54%, Dev:3.31% ; Time:400 (last_train:80, last_pred:49)
+*************** The best score on DEV 2 :4.177%
+epoch : 4/20 - loss = 4.154962834732308
+Accuracy Train:3.7%, Dev:3.37% ; Time:533 (last_train:78, last_pred:55)
+*************** The best score on DEV 2 :4.177%
+epoch : 5/20 - loss = 4.1528584522436995
+Accuracy Train:3.48%, Dev:3.18% ; Time:689 (last_train:89, last_pred:67)
+*************** The best score on DEV 2 :4.177%
+epoch : 6/20 - loss = 4.152620347165271
+Accuracy Train:3.1%, Dev:2.87% ; Time:823 (last_train:80, last_pred:54)
+*************** The best score on DEV 2 :4.177%
+epoch : 7/20 - loss = 4.152527832853202
+Accuracy Train:2.97%, Dev:2.8% ; Time:954 (last_train:78, last_pred:53)
+*************** The best score on DEV 2 :4.177%
+epoch : 8/20 - loss = 4.152500442378429
+Accuracy Train:3.72%, Dev:3.4% ; Time:1094 (last_train:80, last_pred:59)
+*************** The best score on DEV 2 :4.177%
+epoch : 9/20 - loss = 4.155626976687605
+Accuracy Train:2.53%, Dev:2.29% ; Time:1232 (last_train:83, last_pred:56)
+*************** The best score on DEV 2 :4.177%
+epoch : 10/20 - loss = 4.1559340413762715
+Accuracy Train:2.83%, Dev:2.82% ; Time:1365 (last_train:79, last_pred:54)
+*************** The best score on DEV 2 :4.177%
+epoch : 11/20 - loss = 4.156405546388574
+Accuracy Train:1.76%, Dev:1.57% ; Time:1500 (last_train:81, last_pred:54)
+*************** The best score on DEV 2 :4.177%
+epoch : 12/20 - loss = 4.156717368910985
+Accuracy Train:2.05%, Dev:1.95% ; Time:1635 (last_train:79, last_pred:56)
+*************** The best score on DEV 2 :4.177%
+epoch : 13/20 - loss = 4.159203563605883
+Accuracy Train:1.17%, Dev:1.21% ; Time:1754 (last_train:77, last_pred:42)
+*************** The best score on DEV 2 :4.177%
+epoch : 14/20 - loss = 4.159104028459412
+Accuracy Train:1.15%, Dev:1.14% ; Time:1848 (last_train:55, last_pred:39)
+*************** The best score on DEV 2 :4.177%
+epoch : 15/20 - loss = 4.1593458823736205
+Accuracy Train:1.12%, Dev:1.13% ; Time:1945 (last_train:55, last_pred:42)
+*************** The best score on DEV 2 :4.177%
+epoch : 16/20 - loss = 4.159387691244895
+Accuracy Train:1.13%, Dev:1.19% ; Time:2052 (last_train:62, last_pred:45)
+*************** The best score on DEV 2 :4.177%
+epoch : 17/20 - loss = 4.15934274473243
+Accuracy Train:1.18%, Dev:1.18% ; Time:2164 (last_train:64, last_pred:48)
+*************** The best score on DEV 2 :4.177%
+epoch : 18/20 - loss = 4.159258631711507
+Accuracy Train:1.15%, Dev:1.11% ; Time:2273 (last_train:63, last_pred:46)
+*************** The best score on DEV 2 :4.177%
+epoch : 19/20 - loss = 4.159139145803715
+Accuracy Train:1.16%, Dev:1.13% ; Time:2386 (last_train:67, last_pred:46)
+*************** The best score on DEV 2 :4.177%
+epoch : 20/20 - loss = 4.1592388943414
+Accuracy Train:1.2%, Dev:1.16% ; Time:2493 (last_train:61, last_pred:45)
+*************** The best score on DEV 2 :4.177%
+Recalculing the best DEV: WAcc : 4.176666666666667%

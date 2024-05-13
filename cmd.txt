@@ -1,0 +1,13 @@
+Faire jouer des modèles l'un contre l'autre :
+
+python game.py save_models_MLP/model_x.pt save_models_MLP/model_x.pt
+
+python game.py save_models_LSTM/model_x.pt save_models_LSTM/model_x.pt
+
+Sauvegarder les modèles :
+
+python training_LSTM.py > logs/[class].log
+
+python training_MLP.py > logs/[class].log
+
+python training_CNN.py > logs/[class].log

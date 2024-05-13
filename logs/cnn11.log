@@ -1,0 +1,104 @@
+Running on cpu
+Training Dataste ... 
+Number of samples : 180030
+Development Dataste ... 
+Number of samples : 30000
+
+
+model parameters ... 
+CNN11(
+  (conv_layer1): Conv2d(1, 256, kernel_size=(2, 2), stride=(1, 1))
+  (conv_layer2): Conv2d(256, 256, kernel_size=(2, 2), stride=(1, 1))
+  (conv_layer3): Conv2d(256, 256, kernel_size=(2, 2), stride=(1, 1))
+  (conv_layer4): Conv2d(256, 256, kernel_size=(2, 2), stride=(1, 1))
+  (conv_layer5): Conv2d(256, 256, kernel_size=(2, 2), stride=(1, 1))
+  (conv_layer6): Conv2d(256, 256, kernel_size=(2, 2), stride=(1, 1))
+  (conv_layer7): Conv2d(256, 256, kernel_size=(2, 2), stride=(1, 1))
+  (max_pool): MaxPool2d(kernel_size=(2, 2), stride=2, padding=0, dilation=1, ceil_mode=False)
+  (relu): ReLU()
+  (fc1): Linear(in_features=256, out_features=64, bias=True)
+)
+
+
+model configuration ... 
+{'board_size': 8, 'path_save': 'save_models', 'epoch': 20, 'earlyStopping': 20, 'len_inpout_seq': 1, 'LSTM_conf': {'hidden_dim': 128}}
+
+
+model optimizer ... 
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: False
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+
+
+Number of parameters: 1592128
+epoch : 1/20 - loss = 4.124024781074313
+Accuracy Train:7.77%, Dev:7.73% ; Time:365 (last_train:260, last_pred:105)
+*************** The best score on DEV 1 :7.73%
+epoch : 2/20 - loss = 4.084078396222868
+Accuracy Train:12.09%, Dev:11.96% ; Time:728 (last_train:256, last_pred:107)
+*************** The best score on DEV 2 :11.96%
+epoch : 3/20 - loss = 4.048753967601291
+Accuracy Train:14.9%, Dev:14.82% ; Time:1090 (last_train:257, last_pred:106)
+*************** The best score on DEV 3 :14.817%
+epoch : 4/20 - loss = 4.035269568638248
+Accuracy Train:15.17%, Dev:15.39% ; Time:1452 (last_train:256, last_pred:105)
+*************** The best score on DEV 4 :15.387%
+epoch : 5/20 - loss = 4.030003389600891
+Accuracy Train:15.64%, Dev:15.48% ; Time:1812 (last_train:255, last_pred:106)
+*************** The best score on DEV 5 :15.483%
+epoch : 6/20 - loss = 4.024126110814553
+Accuracy Train:16.16%, Dev:16.24% ; Time:2173 (last_train:255, last_pred:106)
+*************** The best score on DEV 6 :16.243%
+epoch : 7/20 - loss = 4.023420646045748
+Accuracy Train:15.83%, Dev:15.92% ; Time:2534 (last_train:255, last_pred:106)
+*************** The best score on DEV 6 :16.243%
+epoch : 8/20 - loss = 4.020690198761324
+Accuracy Train:16.91%, Dev:16.84% ; Time:2898 (last_train:258, last_pred:106)
+*************** The best score on DEV 8 :16.837%
+epoch : 9/20 - loss = 4.03668667598324
+Accuracy Train:15.47%, Dev:15.42% ; Time:3194 (last_train:221, last_pred:75)
+*************** The best score on DEV 8 :16.837%
+epoch : 10/20 - loss = 4.029954200291502
+Accuracy Train:16.69%, Dev:16.82% ; Time:3453 (last_train:184, last_pred:75)
+*************** The best score on DEV 8 :16.837%
+epoch : 11/20 - loss = 4.033071380952445
+Accuracy Train:8.69%, Dev:8.59% ; Time:3712 (last_train:184, last_pred:75)
+*************** The best score on DEV 8 :16.837%
+epoch : 12/20 - loss = 4.067471633299938
+Accuracy Train:13.73%, Dev:13.97% ; Time:3983 (last_train:185, last_pred:87)
+*************** The best score on DEV 8 :16.837%
+epoch : 13/20 - loss = 4.052698194651314
+Accuracy Train:13.13%, Dev:13.4% ; Time:4285 (last_train:218, last_pred:84)
+*************** The best score on DEV 8 :16.837%
+epoch : 14/20 - loss = 4.053458000414938
+Accuracy Train:13.92%, Dev:13.91% ; Time:4560 (last_train:197, last_pred:79)
+*************** The best score on DEV 8 :16.837%
+epoch : 15/20 - loss = 4.036064640593134
+Accuracy Train:13.84%, Dev:14.02% ; Time:4828 (last_train:187, last_pred:81)
+*************** The best score on DEV 8 :16.837%
+epoch : 16/20 - loss = 4.058434433699971
+Accuracy Train:13.59%, Dev:13.66% ; Time:5093 (last_train:186, last_pred:78)
+*************** The best score on DEV 8 :16.837%
+epoch : 17/20 - loss = 4.044568132959018
+Accuracy Train:14.16%, Dev:14.37% ; Time:5371 (last_train:197, last_pred:82)
+*************** The best score on DEV 8 :16.837%
+epoch : 18/20 - loss = 4.041906578106116
+Accuracy Train:14.53%, Dev:14.7% ; Time:5652 (last_train:201, last_pred:80)
+*************** The best score on DEV 8 :16.837%
+epoch : 19/20 - loss = 4.0735591577561525
+Accuracy Train:11.35%, Dev:11.36% ; Time:5933 (last_train:197, last_pred:85)
+*************** The best score on DEV 8 :16.837%
+epoch : 20/20 - loss = 4.0558159390865764
+Accuracy Train:14.33%, Dev:14.42% ; Time:6213 (last_train:197, last_pred:82)
+*************** The best score on DEV 8 :16.837%
+Recalculing the best DEV: WAcc : 16.836666666666666%
